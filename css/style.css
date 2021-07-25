@@ -30,8 +30,8 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-width: 280px;
-  min-height: 480px;
+  width: 280px;
+  height: 480px;
   border-radius: 4px;
   -webkit-box-shadow: 5px 5px 10px #c4c4c4, -10px -10px 10px #fff;
           box-shadow: 5px 5px 10px #c4c4c4, -10px -10px 10px #fff;
