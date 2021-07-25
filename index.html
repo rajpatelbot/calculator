@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="icon" href="font awsome/Calculator-icon.png">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section>
+      <div class="display" id="display">
+        <div id="currentInput"></div>
+        <div id="answerScreen"></div>
+      </div>
+      <div class="buttons">
+          <div>
+              <button class="btn clear" value="" id="clr">C</button>
+              <button class="btn operators" value="%" id="module">%</button>
+              <button class="btn operators" value="" id="back">X</button>
+              <button class="btn operators" value="/" id="divide">/</button>
+          </div>
+          <div>
+              <button class="btn" value="7" id="seven">7</button>
+              <button class="btn" value="8" id="eight">8</button>
+              <button class="btn" value="9" id="nine">9</button>
+              <button class="btn operators" value="*" id="multi">*</button>
+          </div>
+          <div>
+              <button class="btn" value="4" id="four">4</button>
+              <button class="btn" value="5" id="five">5</button>
+              <button class="btn" value="6" id="six">6</button>
+              <button class="btn operators" value="-" id="sub">-</button>
+          </div>
+          <div>
+              <button class="btn" value="1" id="one">1</button>
+              <button class="btn" value="2" id="two">2</button>
+              <button class="btn" value="3" id="three">3</button>
+              <button class="btn operators" value="+" id="add">+</button>
+          </div>
+          <div>
+              <button class="btn" value="00" id="doubleZero">00</button>
+              <button class="btn" value="0" id="zero">0</button>
+              <button class="btn" value="." id="point">.</button>
+              <button class="btn answer" id="equal">=</button>
+          </div>
+      </div>
+    </section>
+    <div class="parentBox">
+        <button class="btn" id="themeLogo">
+            <img id="moon" src="font awsome/moon.png" alt="">
+        </button>
+    </div>
+  </body>
+  <script src="js/darkMode.js"></script>
+  <script src="js/script.js"></script>
+</html>
